@@ -34,9 +34,37 @@
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
+  <style>
+    .wa-button {
+      position: fixed;
+      bottom: 10px;
+      /* Jarak dari bawah */
+      left: 20px;
+      /* Jarak dari kanan */
+      z-index: 1000;
+      /* Pastikan selalu di atas elemen lain */
+    }
+
+    .wa-button img {
+      width: 43px;
+      /* Ukuran ikon */
+      height: 43px;
+      border-radius: 50%;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease;
+    }
+
+    .wa-button img:hover {
+      transform: scale(1.1);
+      /* Efek zoom saat hover */
+    }
+  </style>
 </head>
 
 <body class="index-page">
+  <a href="https://wa.me/081225525148" class="wa-button" target="_blank">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" />
+  </a>
 
   <header id="header" class="header d-flex flex-column justify-content-center">
 
